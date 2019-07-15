@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:id="@+id/item"
+              android:layout_height="wrap_content">
+
+    <ImageView
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_spotify"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:padding="20dp"
+            android:id="@+id/txt_name_audio"
+            android:layout_width="match_parent"
+            android:text="Hello"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
